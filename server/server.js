@@ -42,4 +42,5 @@ app.post('/', async (req, res) => {
         res.status(500).send({error});
     }
 })
+
 app.listen(500,()=>console.log('Server is running on port 5000'));
